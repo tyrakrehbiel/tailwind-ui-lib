@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react-swc';
 import { defineConfig } from 'vite';
 import dts from 'vite-plugin-dts';
 
-import { peerDependencies } from './package.json';
+import { name, peerDependencies } from './package.json';
 
 export default defineConfig({
   plugins: [
@@ -16,6 +16,7 @@ export default defineConfig({
     minify: false,
     lib: {
       entry: resolve(__dirname, join('lib', 'index.ts')),
+      name: name,
       fileName: 'index',
       formats: ['es', 'cjs'],
     },
