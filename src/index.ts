@@ -1,3 +1,3 @@
-import './index.css';
+import './global.css';
 
 export * from './Button';
