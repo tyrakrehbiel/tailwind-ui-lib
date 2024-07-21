@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "description": "A Tailwind React component library built with Vite and Storybook",
+  "license": "MIT",
   "type": "module",
   "files": [
     "dist"
