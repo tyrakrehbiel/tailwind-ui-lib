@@ -1,10 +1,8 @@
 {
-  "name": "vite-react-component-library-starter",
+  "name": "tailwind-ui-lib",
   "private": true,
-  "version": "0.0.2",
-  "description": "A template for creating React component libraries with Vite, Tailwind, and Storybook.",
-  "author": "rayyamhk",
-  "license": "MIT",
+  "version": "0.0.0",
+  "description": "A Tailwind React component library built with Vite and Storybook",
   "type": "module",
   "files": [
     "dist"
