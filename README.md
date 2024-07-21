@@ -1,8 +1,8 @@
-# Vite React Component Library Starter
+# Tailwind UI Component Library
 
-This is a starter template for creating React component libraries using Vite. It includes a robust set of features to help you develop, test, and build your library efficiently.
+This is a React component library styled with TailwindCSS. It is a sample project to test Vite, TailwindCSS, and Storybook and is not intended to be published or maintained.
 
-[Source](https://github.com/rayyamhk/vite-react-component-library-starter)
+The base of this repository is derived from this [template](https://github.com/rayyamhk/vite-react-component-library-starter).
 
 ## Features
 
@@ -15,11 +15,6 @@ This is a starter template for creating React component libraries using Vite. It
 - ESLint: A tool that finds and fixes problems in your code.
 - Github Action: A tool that deploys your Storybook to GitHub page automatically.
 
-## Get Started
-
-1. Clone this repository
-2. Install dependencies using `npm i` (or `pnpm i` if you like)
-
 ## Scripts
 
 - `dev`: Starts the local Storybook server, use this to develop and preview your components.
@@ -27,10 +22,9 @@ This is a starter template for creating React component libraries using Vite. It
 - `test:watch`: Runs tests in watch mode.
 - `test:ui`: Runs tests with a UI.
 - `test:coverage`: Runs tests and generates a coverage report.
-- `build`: Builds your Storybook as a static web application.
+- `build:storybook`: Builds your Storybook as a static web application.
 - `build:lib`: Builds your component library with Vite.
-- `lint`: Runs ESLint.
-- `format`: Formats your code with Prettier.
+- `lint`: Runs ESLint
 
 ## License
 
