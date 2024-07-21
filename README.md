@@ -2,6 +2,8 @@
 
 This is a starter template for creating React component libraries using Vite. It includes a robust set of features to help you develop, test, and build your library efficiently.
 
+[Source](https://github.com/rayyamhk/vite-react-component-library-starter)
+
 ## Features
 
 - React: A JavaScript library for web and native user interfaces.
